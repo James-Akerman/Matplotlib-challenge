@@ -18,7 +18,7 @@ As a senior data analyst at the company, I was given access to the complete data
 
   * Generating a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
 
-  * Calculating the final tumour volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+  * Calculating the final tumour volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculating the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
 
   * Generating a box and whisker plot of the final tumour volume for all four treatment regimens and highlight any potential outliers in the plot by changing their colour and style, using Matplotlib.
   

@@ -26,6 +26,6 @@ As a senior data analyst at the company, I was given access to the complete data
 
   * Generating a scatter plot of mouse weight versus average tumour volume for the Capomulin treatment regimen.
 
-  * Calculating the correlation coefficient and linear regression model between mouse weight and average tumour volume for the Capomulin treatment. Plotting the linear regression model on top of the previous scatter plot.
+  * Calculating the correlation coefficient and linear regression model between mouse weight and average tumour volume for the Capomulin treatment, and plotting the linear regression model on top of the previous scatter plot.
 
   * Looking across all previously generated figures and tables and write at least three observations or inferences that can be made from the data.

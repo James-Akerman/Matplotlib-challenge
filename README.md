@@ -1,34 +1,43 @@
 # Pymaceuticals Tumor Treatement Analysis
 
-## Background
+The repository analyses data supplied by Pymaceuticuals. Pymaceuticuals is a hypothetical pharaceuticuals manufacturer currently screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.The data consists of 45 days of observations of 249 mice identified with SCC tumour growth who were treated through a variety of drug regimens.
 
-In this Monash University Data Analytics Boot Camp/Trilogy Education Services homework, I imaged I was a data analyst who'd joined a finctional company called Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego. Pymaceuticals specialises in anti-cancer pharmaceuticals. In its most recent efforts, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
+The data analysis found the following
+#### Observation 1: In the Capomulin drug regimen cohort, heavier mice have larger tumors
+According to figures 7 and 8, there appears to be a strong correlation between mouse weight and tumor size for mice in the Capomulin drug regimen cohort. This may infer that heavier mice have larger tumors overall, although more research is needed.
 
-As a senior data analyst at the company, I was given access to the complete data from their most recent animal study. In this study, 249 mice identified with SCC tumour growth were treated through a variety of drug regimens. Over the course of 45 days, tumour development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. I was tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. The executive team also asked for a top-level summary of the study results.
+![figure 7](images/figure-7.PNG)
+![figure 8](images/figure-8.PNG)
 
-## Tasks
+<br>
 
-* My tasks included the following
+#### Observation 2: Capomulin appears to be effective in reducing tumor size
+According to figure 6, Capomulin appears to be effective in reducing tumor size. Mouse b128 has shown an overall decrease during the course their treatment with this drug, which may suggest the drug is effective at treating tumors. However, more research is needed to assess its effectiveness on other mice treated with this drug.
 
-  * Cleaning the data
+![figure 6](images/figure-6.PNG)
 
-  * Generating a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumour volume for each drug regimen.
+<br>
 
-  * Generating a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows  the number of total mice for each treatment regimen throughout the course of the study.
+#### Observation 3: Capomulin and Ramicane appear to be more effective than Infubinol or Ceftamin.
+According to figure 5, mice treated with Capomulin and Ramicane have smaller tumors at the end of their treatment, when compared with mice treated with Infubinol or Ceftamin. Mice treated with Capomulin and Ramicane appear have lower median tumor sizes at the end of their treatment than mice treated with either Infubinol or Ceftamin. This may suggest that Capomulin and Ramicane are more effective at treating tumors although more research is needed to assess this assertion.
 
-  * Generating a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
+![figure 5](images/figure-5.PNG)
 
-  * Calculating the final tumour volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculating the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+<br>
 
-  * Generating a box and whisker plot of the final tumour volume for all four treatment regimens and highlight any potential outliers in the plot by changing their colour and style, using Matplotlib.
-  
-  * Selecting a mouse that was treated with Capomulin and generate a line plot of tumour volume vs. time point for that mouse.
+#### Observation 4: The distribution of female and male mice is roughly even
+According to figures 3 and 4, the distribution of female and male mice observed is roughly even.
 
-  * Generating a scatter plot of mouse weight versus average tumour volume for the Capomulin treatment regimen.
+![figure 3](images/figure-3.PNG)
+![figure 4](images/figure-4.PNG)
 
-  * Calculating the correlation coefficient and linear regression model between mouse weight and average tumour volume for the Capomulin treatment, and plotting the linear regression model on top of the previous scatter plot.
+<br>
 
-  * Looking across all previously generated figures and tables and write at least three observations or inferences that can be made from the data.
+#### Observation 5: Capomulin and Ramicane have the most data points
+According to figures 1 and 2, Capomulin and Ramicane have the most data points. This may infer that mice treated with these drugs survived for longer and thus may further indicate that they are the most effective drug treatments from the study.
+
+![figure 1](images/figure-3.PNG)
+![figure 2](images/figure-4.PNG)
 
 <br>
 

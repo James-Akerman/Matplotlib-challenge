@@ -1,6 +1,6 @@
 # Pymaceuticals Tumor Treatement Analysis
 
-The repository analyses data supplied by Pymaceuticuals. Pymaceuticuals is a hypothetical pharaceuticuals manufacturer currently screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.The data consists of 45 days of observations of 249 mice identified with SCC tumour growth who were treated through a variety of drug regimens.
+The repository analyses data supplied by Pymaceuticuals. Pymaceuticuals is a hypothetical pharaceuticuals manufacturer currently screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. The data consists of 45 days of observations of 249 mice identified with SCC tumour growth who were treated through a variety of drug regimens.
 
 The data analysis found the following
 #### Observation 1: In the Capomulin drug regimen cohort, heavier mice have larger tumors

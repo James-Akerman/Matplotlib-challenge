@@ -30,9 +30,16 @@ As a senior data analyst at the company, I was given access to the complete data
 
   * Looking across all previously generated figures and tables and write at least three observations or inferences that can be made from the data.
 
+<br>
+
 ## Tools/Packages used
 - Python
   - Pandas
   - Matplotlib
 
+<br>
+
 ## How to use
+- Download the repository
+- Open Git Bash and type `jupyter notebook`
+- Go to the **PyCitySchools** folder and open the [jupyter notebook script](PyCitySchools/PyCitySchools_James-Akerman.ipynb).

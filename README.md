@@ -42,4 +42,4 @@ As a senior data analyst at the company, I was given access to the complete data
 ## How to use
 - Download the repository
 - Open Git Bash and type `jupyter notebook`
-- Go to the **PyCitySchools** folder and open the [jupyter notebook script](PyCitySchools/PyCitySchools_James-Akerman.ipynb).
+- Go to the **Pymaceuticals** folder and open the [jupyter notebook script](Pymaceuticals/pymaceuticals_James-Akerman.ipynb).
